@@ -30,7 +30,7 @@
 	margin:4px 0 4px 4px;
 }
 .leaflet-control-search.search-load .search-input {
-	background: url('../images/loader.gif') no-repeat center right #fff;
+	background: url('css/loader.gif') no-repeat center right #fff;
 }
 .leaflet-control-search.search-load .search-cancel {
 	visibility:hidden;
@@ -42,7 +42,7 @@
 	position:absolute;
 	right:28px;
 	margin:6px 0;
-	background: url('css/search-icon.png') no-repeat 0px 0px;
+	background: url('css/cancel-icon.png') no-repeat 0px 0px;
 	text-decoration:none;
 	filter: alpha(opacity=80);
 	opacity: 0.8;
@@ -63,7 +63,7 @@
 }
 .leaflet-control-search .search-button {
 	display:block;
-	float:left;
+	text-align: center;
 	width:30px;
 	height:30px;
 	background: url('css/search-icon.png') no-repeat 0px 0px #fff;
