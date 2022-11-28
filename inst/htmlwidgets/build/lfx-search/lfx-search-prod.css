@@ -42,7 +42,7 @@
 	position:absolute;
 	right:28px;
 	margin:6px 0;
-	background: url('css/cancel-icon.png') no-repeat center;
+	background: url('css/cancel-icon.png') no-repeat center/12px 12px;
 	text-decoration:none;
 	filter: alpha(opacity=80);
 	opacity: 0.8;
@@ -66,11 +66,11 @@
 	float:left;
 	width:30px;
 	height:30px;
-	background: url('css/search-icon.png') no-repeat center #fff;
+	background: url('css/search-icon.png') no-repeat center/12px 12px #fff;
 	border-radius:4px;
 }
 .leaflet-control-search .search-button:hover {
-	background: url('css/search-icon.png') no-repeat center #fafafa;
+	background: url('css/search-icon.png') no-repeat center/12px 12px #fafafa;
 }
 .leaflet-control-search .search-tooltip {
 	position:absolute;
